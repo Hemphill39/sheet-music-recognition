@@ -23,6 +23,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="sheet_music_recognition.py" />
+    <Compile Include="StaffClassifier.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\note_oval.jpg" />
+    <Content Include="Images\quarter_note_stemmed.jpg" />
+    <Content Include="Images\scale.jpg" />
+    <Content Include="Images\scale_staff.jpg" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
