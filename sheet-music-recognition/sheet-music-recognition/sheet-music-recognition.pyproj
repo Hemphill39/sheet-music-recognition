@@ -13,7 +13,7 @@
     <Name>sheet-music-recognition</Name>
     <RootNamespace>sheet-music-recognition</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>Images/scale_staff.jpg Images/half_note.png</CommandLineArguments>
+    <CommandLineArguments>Images/scale_staff.jpg Images/line.png</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
