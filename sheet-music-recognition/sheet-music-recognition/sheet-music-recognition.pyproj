@@ -5,13 +5,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5433852b-e878-4ad3-88a8-4b9debb0d5ad</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sheet_music_recognition.py</StartupFile>
+    <StartupFile>StaffClassifier.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>sheet-music-recognition</Name>
     <RootNamespace>sheet-music-recognition</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>Images/scale_staff.jpg Images/full_note.png</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,10 +34,14 @@
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\full_note.png" />
+    <Content Include="Images\half_note.png" />
     <Content Include="Images\note_oval.jpg" />
     <Content Include="Images\quarter_note_stemmed.jpg" />
+    <Content Include="Images\res.png" />
     <Content Include="Images\scale.jpg" />
     <Content Include="Images\scale_staff.jpg" />
+    <Content Include="Images\whole_note.png" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
